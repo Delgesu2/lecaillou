@@ -34,13 +34,7 @@ ob_start();
       </div>
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="contenu/images/maison3.jpg" alt="porte entr&eacute;e">
-      <div class="carousel-caption d-none d-sm-block">
-          <h5>Porte d'entr&eacute;</h5>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="contenu/images/ble2.jpg" alt="champ">
+      <img class="d-block w-100" src="contenu/images/ble3.jpg" alt="champ">
       <div class="carousel-caption d-none d-sm-block">
           <h5>Champ de bl&eacute;</h5>
       </div>

@@ -173,7 +173,7 @@ ob_start();
 						<p>Derni&egrave;re mise-&agrave;-jour: mars 2018</p>
 						<p class="legal">Pour envoyer un courriel &agrave; l&apos;auteur du site:
 						<span><a href="mailto:contact@devxdemo.eu"><img src="contenu/images/icones/mail.svg" aria-hidden="true"></a></span></p>
-						<p class="text-center"><a href="#"><img src="contenu/images/icones/mark-github.svg"></a></p>						
+						<p class="text-center"><a href="https://github.com/Delgesu2/lecaillou"><img src="contenu/images/icones/mark-github.svg"></a></p>						
 						</div>						
 					</div>
 				</div>

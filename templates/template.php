@@ -21,7 +21,7 @@
     <link rel="stylesheet" type="text/css" href="contenu/CSS/style.css">
 
      <title><?= $title ?></title>
-     <script src='https://www.google.com/recaptcha/api.js' async defer></script>
+     <script src='https://www.google.com/recaptcha/api.js'></script>
      <script>
        function onSubmit(token) {
          document.getElementById("contact").submit();

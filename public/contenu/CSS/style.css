@@ -262,6 +262,7 @@ line-height: 100px;
 
 	/* Image for Parallax Section */ 
 .paralsec {
-background-image: url("../images/ble2.jpg");
+	background-image: url("../images/ble2.jpg");
+}
 
 /* fin parallaxe */

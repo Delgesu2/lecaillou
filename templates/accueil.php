@@ -10,7 +10,7 @@ ob_start();
       <div class="col-12 paral paralsec">
         <h1 class="display-3">Sur la route des vacances</h1>
         <p class="lead">pr&egrave;s des ch&acirc;teaux de la Loire</p>
-        <p class="lead">entre le fleuve et la Sologne,<br/>poser vos bagages pour partager un moment de convivialit&eacute;  
+        <p class="lead">entre le fleuve et la Sologne,<br/>posez vos bagages pour partager un moment de convivialit&eacute;  
         </p>
       </div>
     </div>

@@ -19,7 +19,7 @@ $title = "Le Caillou - Contact";
  		</div>
  		<div class="col-12 col-sm-8">
 
- 			<form id="contact" action="/send" method="POST">
+ 			<form action="/send" method="POST">
 
  			  <div class="form-group">
 			    <label for="nom">Votre nom</label>
@@ -36,9 +36,9 @@ $title = "Le Caillou - Contact";
 			    <textarea type="textarea" id="message" name="message" rows="3" class="form-control" required/></textarea>
 			  </div>
 
-			  <button type="submit" class="g-recaptcha btn btn-primary" 
-			  data-sitekey="6Lf4Gk4UAAAAAFBBP977wCeHQJKtaKEkTS8IzqQV"
-			  data-callback="onSubmit">Envoyer</button>
+			  <div class="g-recaptcha" data-sitekey="6LdbA08UAAAAAKcLYTQgnI2swazilKFUDj6S5QmJ"></div>
+
+			  <button type="submit" class="btn btn-primary">Envoyer</button>
 
 			</form>
  			

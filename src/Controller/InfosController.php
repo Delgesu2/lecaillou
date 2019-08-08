@@ -8,8 +8,8 @@ namespace Controller;
 class InfosController
 {
 	
-	public function __construct()
+	public function __invoke()
 	{
-		require __DIR__ . './../templates/infos.php';
+		require __DIR__ . './../../templates/infos.php';
 	}
 }

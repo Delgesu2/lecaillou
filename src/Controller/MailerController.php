@@ -2,10 +2,10 @@
 
 if (isset($_POST)) {
 
-require_once '../vendor/autoload.php';
+require_once '../../vendor/autoload.php';
 
  // Read data array
-		$data = require '../config/data.php';
+		$data = require '../../config/data.php';
         
         // Create the Transport
         $transport = (new Swift_SmtpTransport($data['smtp'], 465, 'ssl'))

@@ -266,3 +266,8 @@ line-height: 100px;
 }
 
 /* fin parallaxe */
+
+.formulaire {
+	border-top: 2px solid #1c7430;
+	padding-top: 5px;
+}

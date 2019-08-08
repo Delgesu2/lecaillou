@@ -8,8 +8,8 @@ namespace Controller;
 class HomeController
 {
 	
-	public function __construct()
+	public function __invoke()
 	{
-		require __DIR__ . './../templates/accueil.php';
+		require __DIR__ . './../../templates/accueil.php';
 	}
 }

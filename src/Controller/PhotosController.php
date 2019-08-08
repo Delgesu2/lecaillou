@@ -8,8 +8,8 @@ namespace Controller;
 class PhotosController
 {
 	
-	public function __construct()
+	public function __invoke()
 	{
-		require __DIR__ . './../templates/photos.php';
+		require __DIR__ . './../../templates/photos.php';
 	}
 }

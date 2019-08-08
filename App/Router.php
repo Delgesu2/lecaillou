@@ -33,9 +33,9 @@ class Router
         foreach ($this->routes as $route) {
             if ($route->getPath() === $request) {
                 $class = $this->createController($route->getController());
-                return $class;      
-                        }
-        } 
+                return $class();
+                }
+        }
         throw new \Exception(header('Location:/crash'));        
     }
 }

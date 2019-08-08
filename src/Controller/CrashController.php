@@ -8,8 +8,8 @@ namespace Controller;
 class CrashController
 {
 	
-	function __construct()
+	function __invoke()
 	{
-		require __DIR__ . './../templates/crash.html';
+		require __DIR__ . './../../templates/crash.html';
 	}
 }

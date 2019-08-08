@@ -8,8 +8,8 @@ namespace Controller;
 class RoomsController
 {
 	
-	public function __construct()
+	public function __invoke()
 	{
-		require __DIR__ . './../templates/chambres.php';
+		require __DIR__ . './../../templates/chambres.php';
 	}
 }

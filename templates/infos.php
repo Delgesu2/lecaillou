@@ -170,7 +170,7 @@ ob_start();
 						<div class="col-12">
 							Code, textes et photos libres de droits				 
 						<a href="https://fr.wikipedia.org/wiki/Copyleft"><img src="contenu/images/icones/copyleft.svg.png"></a> <br/>
-						<p>Derni&egrave;re mise-&agrave;-jour: mars 2018</p>
+						<p>Derni&egrave;re mise-&agrave;-jour: août 2019</p>
 						<p class="legal">Pour envoyer un courriel &agrave; l&apos;auteur du site:
 						<span><a href="mailto:contact@devxdemo.eu"><img src="contenu/images/icones/mail.svg" aria-hidden="true"></a></span></p>
 						<p class="text-center"><a href="https://github.com/Delgesu2/lecaillou"><img src="contenu/images/icones/mark-github.svg"></a></p>						

@@ -2,10 +2,10 @@
 
 if (isset($_POST)) {
 
-require_once '../../vendor/autoload.php';
+require_once __DIR__ . '/../../vendor/autoload.php';
 
  // Read data array
-		$data = require '../../config/data.php';
+		$data = require __DIR__ . '/../../config/data.php';
         
         // Create the Transport
         $transport = (new Swift_SmtpTransport($data['smtp'], 465, 'ssl'))
@@ -17,8 +17,9 @@ require_once '../../vendor/autoload.php';
         $mailer = new Swift_Mailer($transport);
 
 // Create a message
-        $contact = 'Message de: ' . htmlspecialchars($_POST['name']) .
-            '<p>Adresse courriel: ' . htmlspecialchars($_POST['email']) . '</p>
+        $contact = '<h1>Messagerie du site Le Caillou</h1>
+            <p>Message de: ' . htmlspecialchars($_POST['name']) . '</p>
+            <p>Adresse courriel: ' . htmlspecialchars($_POST['email']) . '</p>
             <p>Message: ' . htmlspecialchars($_POST['message']) . '</p>';
         $message = (new Swift_Message('Nouveau message'))
             ->setFrom([htmlspecialchars($data['from']) => 'Formulaire contact Le Caillou'])

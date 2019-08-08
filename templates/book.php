@@ -7,6 +7,8 @@ ob_start();
 <div class="container">
 
     <div class="mx-auto marque" style="width: 200px; font-size: 3em">Livre d 'or</div>
+    <div>N'hésitez pas à laisser un petit message :o)</div>
+
     <!-- Boucle d'affichage des messages -->
 <?php
    if (!empty($messages)){
@@ -37,7 +39,7 @@ ob_start();
 
 <div class="row formulaire">
     <div class="col-sm-12">
-        <form method="post" action="/create">
+        <form method="POST" action="/create">
             <div class="form-row">
                 <div class="form-group col-md-6">
                     <label for="author">Votre nom:</label>

@@ -1,6 +1,8 @@
 Vitrine des Chambres d'hôtes Le Caillou
 =======================================
 
+*Mise à jour d'août 2019, nouvelle fonctionnalité: livre d'or avec pagination.* 
+
 Ce site est un projet destiné à présenter une petite structure familiale.
 
 
